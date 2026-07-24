@@ -255,13 +255,6 @@ ol {
   width: 100%;
 }
 
-.photo--review {
-  aspect-ratio: 1;
-  width: 100%;
-  margin-bottom: 1.5rem;
-  background:
-    linear-gradient(160deg, var(--sand-deep) 0%, var(--sand) 45%, #d4c9b8 100%);
-}
 
 /* ——— Hero ——— */
 
@@ -510,17 +503,21 @@ ol {
 
 .review {
   background: var(--white);
-  padding: 1.25rem 1.25rem 1.75rem;
+  padding: 1.75rem 1.5rem 1.85rem;
   border: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .review__quote {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-style: italic;
   line-height: 1.45;
   color: var(--graphite);
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  flex: 1;
 }
 
 .review__name {
@@ -530,14 +527,6 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
-}
-
-.reviews__note {
-  text-align: center;
-  margin-top: 1.75rem;
-  font-size: 0.8rem;
-  color: var(--muted);
-  opacity: 0.7;
 }
 
 /* ——— Final CTA ——— */
